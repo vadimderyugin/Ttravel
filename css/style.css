@@ -1,0 +1,144 @@
+body {
+	font-family: "Aleo", serif;
+	/*font-family: "Magra", sans-serif;
+	font-family: "Red Hat Text", sans-serif;*/
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.container {
+	max-width: 1230px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.main {
+	flex: 1 1 auto;
+}
+
+.header {
+	background-image: url(../images/main-img/main-img.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+
+.header__wrapper {
+	position: fixed;
+	width: 100%;
+	height: 90px;
+	background-color: #F2785CB2;
+}
+
+.header__box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 25px 0;
+}
+
+.header__list {
+	display: flex;
+}
+
+.header__list li+li {
+	margin-left: 42px;
+}
+
+.header__link {
+	font-family: "Red Hat Text", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 21px;
+	color: #FFFFFF;
+}
+
+.header__btn-link {
+	padding: 10px 30px;
+	background-color: #0D606F;
+	border-radius: 10px;
+	font-family: 'Red Hat Text';
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 21px;
+	color: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+}
+
+.home {
+	padding-top: 122px;
+}
+
+.home__box {
+	max-width: 892px;
+}
+
+.home__title {
+	font-weight: 700;
+	font-size: 80px;
+	line-height: 96px;
+	color: #FFFFFF;
+}
+
+.home__subtitle {
+	margin: 45px 0;
+	font-style: italic;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+
+.home__form {
+	position: relative;
+}
+
+.home__form-btn {
+	right: 0;
+	top: center;
+	cursor: pointer;
+	font-family: "Red Hat Text", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 32px;
+	color: #FFFFFF;
+	padding: 13px 32px;
+	background: #0D606F;
+	box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+	border-radius: 10px;
+}
+
+.home__form-input {
+	max-width: 560px;
+	background-color: transparent;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	color: rgba(242, 120, 92, 1);
+}
+
+.home__form-input::placeholder {
+	color: rgba(242, 120, 92, 1);
+}
+
+.home__form-input:focus::placeholder{
+	color: transparent;
+}
+
+.home__form-box {
+	padding: 0 18px 0 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 892px;
+	height: 95px;
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 16px;
+}
