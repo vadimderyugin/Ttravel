@@ -47,7 +47,7 @@
 	.home {
 		display: flex;
 		flex-direction: column;
-		justify-content: flex-end;
+		justify-content: center;
 	}
 
 	.home__box {
@@ -248,10 +248,9 @@
 		background-image: url(../images/main-img/main-mobile.jpg);
 		background-repeat: no-repeat;
 		background-position: top center;
-		background-size: 100%;
+		background-size: cover;
 		flex-direction: row;
-		padding-top: 160px;
-		height: 40vh;
+		height: auto;
 	}
 
 	.header {
@@ -267,6 +266,7 @@
 	.home__box {
 		flex-direction: row;
 		margin-bottom: 0;
+		padding: 160px 0 60px 0;
 	}
 
 	.steps__box {
@@ -353,7 +353,7 @@
 /*==============================456================================*/
 @media (max-width:465px) {
 	.home {
-		height: 30vh;
+		height: cover;
 	}
 
 	.steps__title {
@@ -393,8 +393,7 @@
 /*==============================390================================*/
 @media (max-width:390px) {
 	.home {
-		height: 35vh;
-		padding-top: 140px;
+		height: cover;
 	}
 
 	.steps__text {
